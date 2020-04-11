@@ -1,8 +1,8 @@
 import React from 'react';
 // import { Query } from 'react-apollo'
-import Wrapper from '../components/Wrapper';
-import Loader from '../components/Loader';
-import HomePage from '../components/HomePage';
+import Wrapper from '../../components/Wrapper';
+import Loader from '../../components/Loader';
+import HomePage from '../../components/HomePage';
 // import query from './query.graphql'
 
 /*const HomePageContainer = () => (

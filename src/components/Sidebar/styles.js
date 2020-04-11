@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import { StyledIcon } from '@components/Icon/styles'
 
 export const StyledSidebar = styled.div`
   display: flex;
@@ -10,11 +9,15 @@ export const StyledSidebar = styled.div`
   height: 100vh;
   background: ${({ theme }) => theme.colors.dark};
   padding: ${({ theme }) => `${theme.sizes.large} ${theme.sizes.regular}`};
-  ${StyledIcon} {
+`;
+
+/*
+ *   ${StyledIcon} {
     fill: ${({ theme }) => theme.colors.light};
     margin-bottom: 6px;
   }
-`;
+
+ * */
 
 export const BottomWrapper = styled.div`
   display: flex;

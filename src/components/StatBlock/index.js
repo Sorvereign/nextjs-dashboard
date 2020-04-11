@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { StyledBlock } from './styles';
 
-const StatBlock = (children) => {
-  return <StyledBlock>{children}</StyledBlock>;
+const StatBlock = (props) => {
+  return <StyledBlock>{props.children}</StyledBlock>;
 };
 
 export default StatBlock;

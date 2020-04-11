@@ -2,12 +2,12 @@ import React from 'react';
 import App, { Container } from 'next/app';
 import { ThemeProvider } from 'styled-components';
 
-import theme from '../styles/themes';
+import theme from '../styles/theme';
 import '../styles/style.css';
 import '../styles/reset.css';
 
 class EnhancedApp extends App {
-  static async getInitialProps({ Compopnent, ctx }) {
+  static async getInitialProps({ Component, ctx }) {
     return {
       pageProps: Component.getInitialProps
         ? await Component.getInitialProps(ctx)
@@ -25,3 +25,5 @@ class EnhancedApp extends App {
     );
   }
 }
+
+export default EnhancedApp;

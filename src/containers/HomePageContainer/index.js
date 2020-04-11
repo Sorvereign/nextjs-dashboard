@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Query } from 'react-apollo'
 import Wrapper from '../../components/Wrapper';
-import Loader from '../../components/Loader';
+// import Loader from '../../components/Loader';
 import HomePage from '../../components/HomePage';
 // import query from './query.graphql'
 
@@ -30,9 +30,11 @@ import HomePage from '../../components/HomePage';
 )*/
 
 const HomePageContainer = () => {
-  <Wrapper flexc contentCentered>
-    <HomePage />
-  </Wrapper>;
+  return (
+    <Wrapper flex contentCentered>
+      <HomePage />
+    </Wrapper>
+  );
 };
 
 export default HomePageContainer;

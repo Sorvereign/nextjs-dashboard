@@ -10,13 +10,13 @@ const Sidebar = (small) => {
     <StyledSidebar small={small}>
       <Link href="/">
         <a>
-          <h1 style="{color: white}"> Logo </h1>
+          <h1> Logo </h1>
         </a>
       </Link>
 
       <BottomWrapper>
         <a href="/logout">
-          <h1 style="{color: white }">Log out</h1>
+          <h1>Log out</h1>
         </a>
       </BottomWrapper>
     </StyledSidebar>

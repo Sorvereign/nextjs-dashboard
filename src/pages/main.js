@@ -1,6 +1,6 @@
-import React from 'reeact';
+import React from 'react';
 
-import MenuAppBar from '../components/Topbar';
+// import MenuAppBar from '../components/Topbar';
 import Sidebar from '../components/Sidebar';
 import Wrapper from '../components/Wrapper';
 import HomePageContainer from '../containers/HomePageContainer';

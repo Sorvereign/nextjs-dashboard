@@ -1,15 +1,15 @@
 import React from 'react';
 import Wrapper from '../Wrapper';
-import ProjectsLists from '../ProjectsList';
-import ProjectStats from '../ProjectStats';
+import ProjectStats from '../ProjectsStats';
 
 const HomePage = (firstName, stats) => {
-  <Wrapper flex>
-    <Wrapper center width="regular" mTop="large">
-      <ProjectsStats firstName="firstName" stats="stats" />
-      <ProjectsLists />
+  return (
+    <Wrapper flex>
+      <Wrapper center width="regular" mTop="large">
+        <ProjectStats />
+      </Wrapper>
     </Wrapper>
-  </Wrapper>;
+  );
 };
 
 export default HomePage;

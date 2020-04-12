@@ -6,7 +6,7 @@ export const StyledBlock = styled.div`
   align-content: center;
   justify-content: center;
   height: 90px;
-  border-right: solid 1px ${({ theme }) => theme.colors.alphaLightBrown};
+  border-right: solid 1px ${({ theme }) => theme.colors.flatYellow};
   ${Text} {
     display: block;
     text-align: center;

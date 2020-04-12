@@ -20,6 +20,10 @@ export default {
     border: 'rgba(40, 40, 40, 0.3)',
     lightgray: 'rgba(25, 25, 25, 0.05)',
     alphalight: 'rgba(255, 255, 255, 0.2)',
+    flatRed: '#ff3e6c',
+    flatYellow: '#ffcc3e',
+    flatBlue: '#5f5fff',
+    darkFlatBlue: '#030047',
   },
   globals: {
     radius: '5px',

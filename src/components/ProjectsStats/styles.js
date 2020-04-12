@@ -4,6 +4,7 @@ import Text from '../Text';
 export const Texts = styled.div`
   ${Text} {
     display: block;
+    color: ${({ theme }) => theme.colors.darkFlatBlue};
     &:last-child {
       margin-top: ${({ theme }) => theme.sizes.tiny};
     }

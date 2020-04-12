@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 export const StyledSidebar = styled.div`
+  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   width: 70px;
   height: 100vh;
-  background: ${({ theme }) => theme.colors.dark};
+  background: ${({ theme }) => theme.colors.flatYellow};
   padding: ${({ theme }) => `${theme.sizes.large} ${theme.sizes.regular}`};
 `;
 

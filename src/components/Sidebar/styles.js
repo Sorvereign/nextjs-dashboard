@@ -8,6 +8,8 @@ export const StyledSidebar = styled.div`
   justify-content: space-between;
   width: 70px;
   height: 100vh;
+  text-decoration: none;
+  color: black;
   background: ${({ theme }) => theme.colors.flatYellow};
   padding: ${({ theme }) => `${theme.sizes.large} ${theme.sizes.regular}`};
 `;

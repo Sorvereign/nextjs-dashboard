@@ -12,7 +12,6 @@ export default class EnhancedDocument extends Document {
           <link rel="stylesheet" href="/_next/static/style.css" />
         </Head>
         <body>
-	    <div dangerouslySetInnerHTML={{ __html: SVG_SPRITE }} />
           <Main></Main>
           <NextScript></NextScript>
         </body>

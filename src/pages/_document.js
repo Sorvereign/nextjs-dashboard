@@ -12,6 +12,7 @@ export default class EnhancedDocument extends Document {
           <link rel="stylesheet" href="/_next/static/style.css" />
         </Head>
         <body>
+	    <div dangerouslySetInnerHTML={{ __html: SVG_SPRITE }} />
           <Main></Main>
           <NextScript></NextScript>
         </body>
@@ -42,7 +43,7 @@ EnhancedDocument.getInitialProps = async (ctx) => {
   // 2. page.getInitialProps
   // 3. app.render
   // 4. page.render
-  // resource: https://github.com/mui-org/material-ui/blob/master/examples/nextjs/pages/_document.js#L27
+  // source: https://github.com/mui-org/material-ui/blob/master/examples/nextjs/pages/_document.js#L27
 
   const sheets = new ServerStyleSheet();
   const originalRenderPage = ctx.renderPage;

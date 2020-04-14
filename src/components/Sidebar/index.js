@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 // import LogoSmall from '@components/LogoSmall'
-// import Icon from '@components/Icon'
+import Icon from '../Icon';
 // import LanguageSwitcher from '@components/LanguageSwitcher'
 import { StyledSidebar, BottomWrapper } from './styles';
 
@@ -16,7 +16,7 @@ const Sidebar = (small) => {
 
       <BottomWrapper>
         <a href="/logout">
-          <h1>Log out</h1>
+          <Icon />
         </a>
       </BottomWrapper>
     </StyledSidebar>

@@ -1,17 +1,35 @@
 import React from 'react';
 import Link from 'next/link';
 // import LogoSmall from '@components/LogoSmall'
-import { LogoutIcon } from '../Icon';
+import { LogoutIcon, AnalyticsIcon, PagesIcon, UsersIcon } from '../Icon';
 // import LanguageSwitcher from '@components/LanguageSwitcher'
-import { StyledSidebar, BottomWrapper } from './styles';
+import { StyledSidebar, SidebarItem, BottomWrapper } from './styles';
 
 const Sidebar = (small) => {
   return (
     <StyledSidebar small={small}>
       <Link href="/">
-        <a>
+        <SidebarItem>
           <h1> Logo </h1>
-        </a>
+        </SidebarItem>
+      </Link>
+
+      <Link href="">
+        <SidebarItem>
+          <AnalyticsIcon />
+        </SidebarItem>
+      </Link>
+
+      <Link href="">
+        <SidebarItem>
+          <PagesIcon />
+        </SidebarItem>
+      </Link>
+
+      <Link href="">
+        <SidebarItem>
+          <UsersIcon />
+        </SidebarItem>
       </Link>
 
       <BottomWrapper>

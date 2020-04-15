@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { StyledButton } from '@components/Button/styles';
 
 export const StyledLink = styled.a`
   cursor: pointer;

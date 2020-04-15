@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
+const getSelectedStyles = (theme) => `
+`;
+
+export const SidebarItem = styled.a`
+  ${({ selected, theme }) => selected && getSelectedStyles(theme)};
+`;
+
 export const StyledSidebar = styled.div`
   position: fixed;
   display: flex;
@@ -9,7 +16,6 @@ export const StyledSidebar = styled.div`
   width: 70px;
   height: 100vh;
   text-decoration: none;
-  color: black;
   background: ${({ theme }) => theme.colors.flatRed};
   padding: ${({ theme }) => `${theme.sizes.large} ${theme.sizes.regular}`};
 `;

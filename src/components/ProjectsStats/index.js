@@ -15,40 +15,42 @@ const ProjectsStats = (firstName, stats) => (
     <Wrapper padding="large">
       <Texts>
         <Text size="large">
-          <h1 id="projects.hello" values={{ name: firstName }} />
+          <h1 id="projects.hello" values={{ name: firstName }}>
+            ¡Hola Almer!
+          </h1>
         </Text>
         <Text color="semiDark">
-          <h1 id="projects.stats-intro" />
+          <h1 id="projects.stats-intro">Estadísticas sobre tus proyectos</h1>
         </Text>
       </Texts>
     </Wrapper>
 
     <StatsWrapper>
       <StatBlock>
-        <Text size="huge">{stats.projectsCount}</Text>
+        <Text size="huge">5</Text>
         <Text size="regular" color="semiDark">
-          <h1 id="projects.stats.projects" />
+          <h1 id="projects.stats.projects">Páginas</h1>
         </Text>
       </StatBlock>
 
       <StatBlock>
-        <Text size="huge">{stats.completePercentage}%</Text>
+        <Text size="huge">3</Text>
         <Text size="regular" color="semiDark">
-          <h1 id="projects.stats.translation-complete" />
+          <h1 id="projects.stats.translation-complete">Publicidades</h1>
         </Text>
       </StatBlock>
 
       <StatBlock>
-        <Text size="huge">{stats.localesCount}</Text>
+        <Text size="huge">6</Text>
         <Text size="regular" color="semiDark">
-          <h1 id="projects.stats.locales" />
+          <h1 id="projects.stats.locales">Usuarios</h1>
         </Text>
       </StatBlock>
 
       <StatBlock>
-        <Text size="huge">{stats.newKeysCount}</Text>
+        <Text size="huge">1</Text>
         <Text size="regular" color="semiDark">
-          <h1 id="projects.stats.new-keys" />
+          <h1 id="projects.stats.new-keys">Clientes</h1>
         </Text>
       </StatBlock>
 

@@ -1,6 +1,11 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro');
 
+svg {
+  fill: currentColor;
+  color: white;
+}
+
 * {
   box-sizing: border-box;
 }

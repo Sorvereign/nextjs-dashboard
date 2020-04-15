@@ -25,7 +25,10 @@ export default {
     flatRed: '#ff3e6c',
     flatYellow: '#ffcc3e',
     flatBlue: '#5f5fff',
-    darkFlatBlue: '#030047',
+    Blue: '#030047',
+
+    // Background
+    background: '#f6f6f9',
   },
   globals: {
     radius: '5px',

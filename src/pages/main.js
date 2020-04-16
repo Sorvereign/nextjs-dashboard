@@ -10,8 +10,8 @@ import Router from 'next/router';
 const Main = () => {
   return (
     <Wrapper flex>
-      <Sidebar></Sidebar>
-      <HomePageContainer></HomePageContainer>
+      <Sidebar />
+      <HomePageContainer />
     </Wrapper>
   );
 };

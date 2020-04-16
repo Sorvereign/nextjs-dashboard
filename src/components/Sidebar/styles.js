@@ -5,6 +5,7 @@ const getSelectedStyles = (theme) => `
 
 export const SidebarItem = styled.a`
   ${({ selected, theme }) => selected && getSelectedStyles(theme)};
+  cursor: pointer;
 `;
 
 export const StyledSidebar = styled.div`

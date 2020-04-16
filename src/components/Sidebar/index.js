@@ -1,8 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-// import LogoSmall from '@components/LogoSmall'
+
 import { LogoutIcon, AnalyticsIcon, PagesIcon, UsersIcon } from '../Icon';
-// import LanguageSwitcher from '@components/LanguageSwitcher'
 import { StyledSidebar, SidebarItem, BottomWrapper } from './styles';
 
 const Sidebar = (small) => {
@@ -10,7 +9,7 @@ const Sidebar = (small) => {
     <StyledSidebar small={small}>
       <Link href="/">
         <SidebarItem>
-          <h1> Logo </h1>
+          <h1>Logo</h1>
         </SidebarItem>
       </Link>
 
@@ -42,7 +41,7 @@ const Sidebar = (small) => {
 };
 
 Sidebar.defaultProps = {
-  small: false,
+  small: true,
 };
 
 export default Sidebar;

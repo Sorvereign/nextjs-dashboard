@@ -8,6 +8,7 @@ const HomePage = (firstName, stats) => {
     <Wrapper flex>
       <Wrapper center width="regular" mTop="large">
         <ProjectStats />
+        <ProjectsList />
       </Wrapper>
     </Wrapper>
   );

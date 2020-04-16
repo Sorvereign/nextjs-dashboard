@@ -1,10 +1,16 @@
 import styled from 'styled-components';
 import Text from '../Text';
+import Wrapper from '../Wrapper';
+
+export const DefaultWrapper = styled.div`
+  width: 100%;
+  padding: 1rem;
+`;
 
 export const Row = styled.div`
   background-color: ${({ isEven, theme }) =>
     isEven ? theme.colors.semiAccentLight : theme.colors.light};
-
+	border-radius: 5px;
   &:hover {
     background-color: ${({ theme }) => theme.colors.accentLight}
 `;

@@ -11,10 +11,10 @@ import { Texts, StatsWrapper } from './styles';
 */
 
 const ProjectsStats = (firstName, stats) => (
-  <Wrapper mBottom="xlarge">
-    <Wrapper padding="large">
+  <Wrapper mBottom="xlarge" color="light" mLeft="large">
+    <Wrapper padding="large" color="light">
       <Texts>
-        <Text size="large">
+        <Text size="large" color="flatRed">
           <h1 id="projects.hello" values={{ name: firstName }}>
             ¡Hola Almer!
           </h1>
@@ -27,37 +27,38 @@ const ProjectsStats = (firstName, stats) => (
 
     <StatsWrapper>
       <StatBlock>
-        <Text size="huge">5</Text>
+        <Text size="huge" color="flatRed">
+          5
+        </Text>
         <Text size="regular" color="semiDark">
           <h1 id="projects.stats.projects">Páginas</h1>
         </Text>
       </StatBlock>
 
       <StatBlock>
-        <Text size="huge">3</Text>
+        <Text size="huge" color="flatRed">
+          3
+        </Text>
         <Text size="regular" color="semiDark">
           <h1 id="projects.stats.translation-complete">Publicidades</h1>
         </Text>
       </StatBlock>
 
       <StatBlock>
-        <Text size="huge">6</Text>
+        <Text size="huge" color="flatRed">
+          6
+        </Text>
         <Text size="regular" color="semiDark">
           <h1 id="projects.stats.locales">Usuarios</h1>
         </Text>
       </StatBlock>
 
       <StatBlock>
-        <Text size="huge">1</Text>
+        <Text size="huge" color="flatRed">
+          1
+        </Text>
         <Text size="regular" color="semiDark">
           <h1 id="projects.stats.new-keys">Clientes</h1>
-        </Text>
-      </StatBlock>
-
-      <StatBlock>
-        <Text size="huge">{stats.missingTranslationsCount}</Text>
-        <Text size="regular" color="semiDark">
-          <h1 id="projects.stats.missing-translations" />
         </Text>
       </StatBlock>
     </StatsWrapper>

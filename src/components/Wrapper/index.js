@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  background: ${({ theme }) => theme.colors.background};
+  background: ${({ theme, color }) =>
+    color ? theme.colors[color] : theme.colors.background};
+  border-radius: 5px;
   width: 100%;
   ${({ theme, margin }) => margin && `margin: ${theme.sizes[margin]}`};
   ${({ theme, mTop }) => mTop && `margin-top: ${theme.sizes[mTop]}`};

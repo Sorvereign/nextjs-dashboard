@@ -2,7 +2,7 @@ export default {
   colors: {
     light: 'rgb(255, 255, 255)',
     semilight: 'rgba(255, 255, 255, 0.5)',
-    semiaccentlight: 'rgb(251, 251, 251)', // Lol
+    semiAccentLight: 'rgb(251, 251, 251)', // Lol
     accentlight: 'rgb(240, 240, 240)',
     dark: 'rgb(25, 25, 25)',
     accentdark: 'rgb(35, 35, 35)',
@@ -14,7 +14,7 @@ export default {
     alphalightbrown: 'rgba(40, 40, 40, 0.1)',
     accentbrown: 'rgba(216, 216, 216, 0.05)',
     alphadark: 'rgba(234, 234, 234, 0.2)',
-    semidark: 'rgba(25, 25, 25, 0.5)',
+    semiDark: 'rgba(25, 25, 25, 0.5)',
     gray: 'rgb(234, 234, 234)',
     semigray: 'rgba(234, 234, 234, 0.4)',
     border: 'rgba(40, 40, 40, 0.3)',
@@ -36,8 +36,8 @@ export default {
   },
   fonts: {
     families: {
-      sourcesans: "'Source Sans Pro', sans-serif",
-      sourcecode: "'Source Code Pro', monospace",
+      sourceSans: "'Source Sans Pro', sans-serif",
+      sourceCode: "'Source Code Pro', monospace",
     },
     sizes: {
       regular: '0.875rem',
@@ -51,7 +51,7 @@ export default {
     tiny: '0.313rem',
     small: '0.5rem',
     regular: '1rem',
-    large: '1.875rem',
+    large: '2.300rem',
     xlarge: '3.75rem',
     huge: '5.625rem',
     enormous: '7.5rem',

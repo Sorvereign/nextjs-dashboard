@@ -7,8 +7,4 @@ export const StyledLink = styled.a`
 
 export const NoResultsWrapper = styled.div`
   display: grid;
-  ${StyledButton} {
-    margin-top: ${({ theme }) => theme.sizes.regular};
-    justify-self: center;
-  }
 `;

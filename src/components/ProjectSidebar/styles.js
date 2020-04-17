@@ -7,5 +7,5 @@ export const StyledSidebar = styled.div`
   width: 230px;
   padding-right: ${({ theme }) => theme.sizes.regular};
   padding-top: ${({ theme }) => theme.sizes.large};
-  background: ${({ theme }) => theme.colors.darkFlatBlue};
+  background: ${({ theme }) => theme.colors.brown};
 `;

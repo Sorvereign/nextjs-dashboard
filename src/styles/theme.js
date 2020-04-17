@@ -26,9 +26,10 @@ export default {
     flatYellow: '#ffcc3e',
     flatBlue: '#5f5fff',
     Blue: '#030047',
-
     // Background
     background: '#f6f6f9',
+    border: '#edeff3',
+
   },
   globals: {
     radius: '5px',

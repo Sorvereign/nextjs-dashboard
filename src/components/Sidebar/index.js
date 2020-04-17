@@ -19,7 +19,7 @@ const Sidebar = (small) => {
         </SidebarItem>
       </Link>
 
-      <Link href="">
+      <Link href="/prueba">
         <SidebarItem>
           <PagesIcon />
         </SidebarItem>

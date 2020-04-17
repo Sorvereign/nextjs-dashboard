@@ -11,7 +11,7 @@ import { Texts, StatsWrapper } from './styles';
 */
 
 const ProjectsStats = (firstName, stats) => (
-  <Wrapper mBottom="xlarge" color="light" mLeft="large">
+  <Wrapper mBottom="xlarge" color="light" mLeft="large" border>
     <Wrapper padding="large" color="light">
       <Texts>
         <Text size="large" color="flatRed">

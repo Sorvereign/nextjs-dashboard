@@ -1,10 +1,10 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-const getSelectedStyles = theme => `
+const getSelectedStyles = (theme) => `
   background: ${theme.colors.accentBrown};
   border-top-right-radius: ${theme.globals.radius};
   border-bottom-right-radius: ${theme.globals.radius};
-`
+`;
 
 export const MenuItem = styled.a`
   display: flex;
@@ -22,4 +22,4 @@ export const MenuItem = styled.a`
   > svg {
     margin-right: ${({ theme }) => theme.sizes.small};
   }
-`
+`;

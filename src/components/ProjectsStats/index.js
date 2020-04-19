@@ -40,7 +40,9 @@ const ProjectsStats = (firstName, stats) => (
           3
         </Text>
         <Text size="regular" color="semiDark">
-          <h1 id="projects.stats.translation-complete">Publicidades</h1>
+          <h1 id="projects.stats.translation-complete">
+            Campañas de publicidad
+          </h1>
         </Text>
       </StatBlock>
 
